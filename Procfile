@@ -1,1 +1,1 @@
-worker: node titan.js
+worker: node aurora.js

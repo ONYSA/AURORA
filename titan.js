@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const titanxyz = new Discord.Client();
-const prefix = '.';
+const prefix = '!';
 const os = require('os');
 const weather = require('weather-js');
 

@@ -1,10 +1,10 @@
 {
-  "name": "TITANxyz",
-  "description": "bewater",
+  "name": "AURORAxyz",
+  "description": "ralien",
   "version": "1.0.0",
-  "main": "titan.js",
+  "main": "aurora.js",
   "scripts": {
-    "start": "node titan.js"
+    "start": "node aurora.js"
   },
   "dependencies": {
     "discord.js": "11.3.2",

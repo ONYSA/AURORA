@@ -72,7 +72,7 @@ titanxyz.on('message', async (message) => {
 	}
 	
 	if (command === 'info') {
-		message.channel.send({embed: new Discord.RichEmbed(). setDescription(`serv.id: ${message.guild.id}\nserv.reg.d.: ${(new Date(message.guild.createdAt.getTime() + 3*60*60*1000)).toISOString().replace(/T/, ' ').replace(/\..+/, '')} MSK\n"Получайте удовольствие от развлечений, но не забывайте, что спорт - это уникальный метод решения проблем со здоровьем с доказанной стопроцентной эффективностью!"nONYSΛ`)});
+		message.channel.send({embed: new Discord.RichEmbed(). setDescription(`serv.id: ${message.guild.id}\nserv.reg.d.: ${(new Date(message.guild.createdAt.getTime() + 3*60*60*1000)).toISOString().replace(/T/, ' ').replace(/\..+/, '')} MSK\n"Получайте удовольствие от развлечений, но не забывайте, что спорт - это уникальный метод решения проблем со здоровьем с доказанной стопроцентной эффективностью!"\nONYSΛ`)});
 	}
 	
 	if (command === 'time') {
